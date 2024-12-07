@@ -48,6 +48,9 @@
 - `sudo` erişimi
 
 ### Adımlar
-1. Depoyu klonlayın
+Depoyu klonlayın ve şu komutları yazın.
 ```bash
 git clone https://github.com/MustafaKemal0146/Post-format-programs-for-ubuntu.git
+cd Post-format-programs-for-ubuntu
+pip install -r requirements.txt
+python3 main.py
