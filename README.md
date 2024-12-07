@@ -50,4 +50,4 @@
 ### Adımlar
 1. Depoyu klonlayın
 ```bash
-git clone https://github.com/kullanici_adiniz/format-sonrasi-yazilim-yukleyici.git
+git clone https://github.com/MustafaKemal0146/Post-format-programs-for-ubuntu.git
