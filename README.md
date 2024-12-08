@@ -1,4 +1,4 @@
-# 🖥️ Format Sonrası Ubuntu İçin Yazılım Yükleyici
+# 🖥️ Format Sonrası Ubuntu İçin Yazılım Yükleyici 1.1
 
 ## 📝 Proje Açıklaması
 `Format Sonrası Yazılım Yükleyici`, Linux sistemler için hızlı ve kolay yazılım yükleme aracıdır. Yeni format atılmış bir sisteme gerekli yazılımları kolayca kurmanıza yardımcı olur.
@@ -27,18 +27,27 @@
 
 ### 4. İletişim 💬
 - **Telegram**: Anlık mesajlaşma uygulaması
-- **Skype**: Video görüşme platformu
 - **Slack**: Ekip iletişim aracı
 
-### 5. Sistem Araçları 🛠️
+### 5. Sistem Araçları 🛠️ (1.1)
 - **7-Zip**: Dosya sıkıştırma aracı
-- **Spotify**: Müzik akış platformu
 - **GParted**: Disk bölümleme aracı
 - **VeraCrypt**: Veri şifreleme yazılımı
 - **BleachBit**: Sistem temizleme aracı
 - **Timeshift**: Sistem yedekleme aracı
 - **Stacer**: Sistem bakım ve performans aracı
 - **Synaptic Package Manager**: Gelişmiş paket yöneticisi
+  
+### 6. Siber Güvenlik Araçları 📛
+- **Nmap**: Ağ keşfi ve güvenlik taramaları için kullanılan popüler bir araç.
+- **Wireshark**: Ağ trafiğini izlemek ve paket analiz yapmak için kullanılan güçlü bir araç.
+- **Metasploit**: Güvenlik açığı tespiti ve sızma testleri için kullanılan bir framework.
+- **John the Ripper**: Şifre kırma ve güvenlik testi yapmak için kullanılan araç.
+- **Fail2ban**: Sistem güvenliğini sağlamak ve şüpheli aktiviteleri engellemek için kullanılan bir araç.
+- **htop**: Sistem kaynaklarını izleyen ve kullanıcı dostu bir terminal tabanlı araç.
+- **Glances**: Sistem izleme aracıdır ve tüm sistem bilgilerini bir arada sunar.
+- **Netdata**: Gerçek zamanlı izleme aracı; sistemin hemen hemen tüm yönlerini takip eder.
+- **Nagios**: Ağ ve sunucu izleme aracı.
 
 ## 🔧 Kurulum
 
@@ -53,5 +62,6 @@ Depoyu klonlayın ve şu komutları yazın.
 git clone https://github.com/MustafaKemal0146/Post-format-programs-for-ubuntu.git
 cd Post-format-programs-for-ubuntu
 pip install -r requirements.txt
+chmod +x install.sh
 chmod +x main.py
 python3 main.py
