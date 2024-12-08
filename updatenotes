@@ -6,27 +6,23 @@
 - **Spotify:** Güncellenmiş repository ve anahtar kurulumu entegre edildi. 🎵
 - **VeraCrypt:** Son sürüm desteği eklenerek güvenlik iyileştirmeleri yapıldı. 🔑
 
-🆕 **Son Güncellemeler** 🚀
-         (08.12.2024)
-Yeni Eklenen Kategoriler:
-Siber Güvenlik Araçları kategorisi eklendi.
-Bu kategori, ağ güvenliği ve sistem izleme gibi görevler için kullanılan popüler araçları içerir.
 
-Yeni Eklenen Araçlar:
-Nmap: Ağ keşfi ve güvenlik taramaları için kullanılan popüler bir araç.
-Wireshark: Ağ trafiğini izlemek ve paket analiz yapmak için kullanılan güçlü bir araç.
-Metasploit: Güvenlik açığı tespiti ve sızma testleri için kullanılan bir framework.
-John the Ripper: Şifre kırma ve güvenlik testi yapmak için kullanılan araç.
-Fail2ban: Sistem güvenliğini sağlamak ve şüpheli aktiviteleri engellemek için kullanılan bir araç.
-htop: Sistem kaynaklarını izleyen ve kullanıcı dostu bir terminal tabanlı araç.
-Glances: Sistem izleme aracıdır ve tüm sistem bilgilerini bir arada sunar.
-Netdata: Gerçek zamanlı izleme aracı; sistemin hemen hemen tüm yönlerini takip eder.
-Nagios: Ağ ve sunucu izleme aracı.
+🆕 Son Güncellemeler 🚀
+(08.12.2024)
 
-Çıkan Araçlar:
-Sürekli uyumluluk hatası verdiği için altta adı geçen uygulamalar çıkartıldı.
+Siber Güvenlik Araçları Kategorisi: Ağ güvenliği ve sistem izleme araçları eklendi. 🔐
 
+Nmap: Ağ keşfi ve güvenlik taramaları için kullanılan popüler bir araç. 🌐
+Wireshark: Ağ trafiğini izlemek ve paket analiz yapmak için kullanılan güçlü bir araç. 📡
+Metasploit: Güvenlik açığı tespiti ve sızma testleri için kullanılan bir framework. 💥
+John the Ripper: Şifre kırma ve güvenlik testi yapmak için kullanılan araç. 🔓
+Fail2ban: Sistem güvenliğini sağlamak ve şüpheli aktiviteleri engellemek için kullanılan bir araç. 🚫
+htop: Sistem kaynaklarını izleyen ve kullanıcı dostu bir terminal tabanlı araç. 🖥️
+Glances: Sistem izleme aracıdır ve tüm sistem bilgilerini bir arada sunar. 📊
+Netdata: Gerçek zamanlı izleme aracı; sistemin hemen hemen tüm yönlerini takip eder. ⏱️
+Nagios: Ağ ve sunucu izleme aracı. 🌍
+
+Çıkan Araçlar: Sürekli uyumluluk hatası verdiği için altta adı geçen uygulamalar çıkartıldı. ❌
 Skype: İletişim kategorisinden çıkarıldı.
 Spotify: İletişim kategorisinden çıkarıldı.
 VeraCrypt: Araçlar kategorisinden çıkarıldı.
- 
