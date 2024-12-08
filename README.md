@@ -29,7 +29,7 @@
 - **Telegram**: Anlık mesajlaşma uygulaması
 - **Slack**: Ekip iletişim aracı
 
-### 5. Sistem Araçları 🛠️ (1.1)
+### 5. Sistem Araçları 🛠️
 - **7-Zip**: Dosya sıkıştırma aracı
 - **GParted**: Disk bölümleme aracı
 - **VeraCrypt**: Veri şifreleme yazılımı
@@ -38,7 +38,7 @@
 - **Stacer**: Sistem bakım ve performans aracı
 - **Synaptic Package Manager**: Gelişmiş paket yöneticisi
   
-### 6. Siber Güvenlik Araçları 📛
+### 6. Siber Güvenlik Araçları 📛 (1.1 Güncellemesi)
 - **Nmap**: Ağ keşfi ve güvenlik taramaları için kullanılan popüler bir araç.
 - **Wireshark**: Ağ trafiğini izlemek ve paket analiz yapmak için kullanılan güçlü bir araç.
 - **Metasploit**: Güvenlik açığı tespiti ve sızma testleri için kullanılan bir framework.
