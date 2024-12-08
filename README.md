@@ -36,7 +36,6 @@
 ### 5. Sistem Araçları 🛠️
 - **7-Zip**: Dosya sıkıştırma aracı
 - **GParted**: Disk bölümleme aracı
-- **VeraCrypt**: Veri şifreleme yazılımı
 - **BleachBit**: Sistem temizleme aracı
 - **Timeshift**: Sistem yedekleme aracı
 - **Stacer**: Sistem bakım ve performans aracı
