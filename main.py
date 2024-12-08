@@ -2,7 +2,7 @@ import subprocess
 import os
 import sys
 
-# Program yükleme bilgileri sözlüğü, kategorilere ayırılmış olarak
+# Program Kütüphanesi
 programs = {
     "Medya": {
         "VLC": {
@@ -75,7 +75,7 @@ programs = {
         }
     },
 
-    # En alta Siber Güvenlik Araçları kategorisini ekliyoruz
+    # Siber Güvenlik Programları (1.1 Güncellemesi)
     "Siber Güvenlik Araçları": {
         "Nmap": {
             "command": "nmap",
