@@ -10,6 +10,10 @@
 - Kullanıcı dostu arayüz
 - Detaylı program açıklamaları
 
+## ❗ Not 
+- Update Notes kısmını okumayı unutmayınız!
+- Yeni güncellemeler, eklemeler ve çıkarılan araçlar hakkında önemli bilgiler içeriyor.
+
 ## 📦 Kategoriler ve Yazılımlar
 
 ### 1. Medya 🎬
