@@ -43,10 +43,6 @@ programs = {
             "command": "telegram-desktop",
             "description": "Anlık mesajlaşma uygulaması"
         },
-        "Skype": {
-            "command": "skypeforlinux",
-            "description": "Anlık mesajlaşma ve video görüşme uygulaması"
-        },
         "Slack": {
             "command": "slack",
             "description": "Ekip içi iletişim ve işbirliği aracı"
@@ -57,17 +53,9 @@ programs = {
             "command": "p7zip-full",
             "description": "Sıkıştırma ve arşivleme aracı"
         },
-        "Spotify": {
-            "command": "spotify-client",
-            "description": "Müzik akış platformu"
-        },
         "GParted": {
             "command": "gparted",
             "description": "Disk bölümlerini yönetme aracı"
-        },
-        "VeraCrypt": {
-            "command": "veracrypt",
-            "description": "Veri şifreleme aracı"
         },
         "BleachBit": {
             "command": "bleachbit",
@@ -84,6 +72,46 @@ programs = {
         "Synaptic Package Manager": {
             "command": "synaptic",
             "description": "Paket yönetimi ve yazılım yükleyici"
+        }
+    },
+
+    # En alta Siber Güvenlik Araçları kategorisini ekliyoruz
+    "Siber Güvenlik Araçları": {
+        "Nmap": {
+            "command": "nmap",
+            "description": "Ağ tarama ve keşfi için popüler bir araç"
+        },
+        "Wireshark": {
+            "command": "wireshark",
+            "description": "Ağ trafiği izleme ve paket analiz aracı"
+        },
+        "Metasploit": {
+            "command": "metasploit-framework",
+            "description": "Sızma testi ve güvenlik açığı tespiti"
+        },
+        "John the Ripper": {
+            "command": "john",
+            "description": "Şifre kırma aracı"
+        },
+        "Fail2ban": {
+            "command": "fail2ban-client",
+            "description": "Şüpheli bağlantıları engelleyen araç"
+        },
+        "htop": {
+            "command": "htop",
+            "description": "Sistem performansını ve kaynak kullanımını izlemek için kullanılan bir araç"
+        },
+        "Glances": {
+            "command": "glances",
+            "description": "Sistem bilgilerini gösteren, kolayca izlenebilen bir araç"
+        },
+        "Netdata": {
+            "command": "netdata",
+            "description": "Gerçek zamanlı sistem izleme aracı"
+        },
+        "Nagios": {
+            "command": "nagios3",
+            "description": "Ağ hizmetlerini ve sunucuları izlemek için kullanılan bir sistem izleme aracı"
         }
     }
 }
@@ -147,8 +175,8 @@ def install_or_update_program(program, category):
         print(f"❌ {program} bulunamadı. Lütfen doğru kategoriden seçim yaptığınızdan emin olun.")
 
 def update_system():
-    """Sistem güncellemesi yapar."""
-    response = input("Sistem güncellemesi yapmak ister misiniz? (e/h): ")
+    """Sistem güncellenmesi yapar."""
+    response = input("Sistem güncellenmesi yapmak ister misiniz? (e/h): ")
     if response.lower() == 'e':
         try:
             print("Sistem güncelleniyor...")
@@ -200,7 +228,7 @@ def main():
             categories = display_categories()
             
             try:
-                category_choice = int(input("\nBir kategori seçin (1-5): "))
+                category_choice = int(input("\nBir kategori seçin (1-6): "))  # Kategori sayısını artırdık
                 if 1 <= category_choice <= len(categories):
                     category = categories[category_choice - 1]
                     
@@ -209,29 +237,27 @@ def main():
 
                     # Program seçimi
                     try:
-                        program_choice = int(input("\nYüklemek/güncellemek istediğiniz programın numarasını girin: "))
+                        program_choice = int(input("\nYüklemek/güncellemek istediğiniz program numarasını girin: "))
                         if 1 <= program_choice <= len(programs_in_category):
                             program = list(programs_in_category.keys())[program_choice - 1]
                             install_or_update_program(program, category)
                         else:
-                            print("Geçersiz program seçimi.")
+                            print("Geçersiz numara.")
                     except ValueError:
-                        print("Lütfen geçerli bir numara girin.")
-
-                    # Devam etme kontrolü
-                    if not ask_continue():
-                        break
+                        print("Geçersiz seçim.")
+                    
                 else:
-                    print("Geçersiz kategori seçimi.")
+                    print("Geçersiz kategori numarası.")
             except ValueError:
-                print("Lütfen geçerli bir numara girin.")
+                print("Geçersiz kategori seçimi.")
 
+            # Devam etme sorusu
+            if not ask_continue():
+                print("Çıkılıyor... Görüşmek üzere!")
+                break
     except KeyboardInterrupt:
-        print("\n\nProgram kullanıcı tarafından sonlandırıldı.")
-    except Exception as e:
-        print(f"Beklenmeyen bir hata oluştu: {e}")
-    finally:
-        print("\nMade from MKC")
+        print("\nÇıkılıyor... Görüşmek üzere!")
 
+# Ana fonksiyonu çalıştır
 if __name__ == "__main__":
     main()
