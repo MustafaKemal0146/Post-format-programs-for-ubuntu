@@ -25,7 +25,7 @@
 - **LibreOffice**: Açık kaynak ofis yazılımı
 
 ### 3. Geliştirme 💻
-- **Visual Studio Code**: Microsoft'un popüler kod editörü
+- **Visual Studio Code**: Microsoft'un popüler kod editörü (buglı)
 - **Google Chrome**: Google'ın web tarayıcısı
 - **Firefox**: Açık kaynak web tarayıcısı
 
