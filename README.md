@@ -65,6 +65,6 @@ Depoyu klonlayın ve şu komutları yazın.
 git clone https://github.com/MustafaKemal0146/Post-format-programs-for-ubuntu.git
 cd Post-format-programs-for-ubuntu
 pip install -r requirements.txt
-chmod +x install.sh
-chmod +x main.py
+sudo chmod +x install.sh
+sudo chmod +x main.py
 python3 main.py
